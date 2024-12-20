@@ -1,0 +1,10 @@
+@import "../utils/colors.scss";
+
+.header-container{
+    padding: 20px;
+    color: $tertiary-color;
+    >h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+}

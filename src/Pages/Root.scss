@@ -1,0 +1,21 @@
+@import '../utils/colors.scss';
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.main-container {
+    font-family: 'Poppins', 'sans-serif';
+    width: 100vw;
+    height: 100vh;
+    // background-color: $dark-color;
+    display: flex;
+    flex-direction: column;
+    background: hsla(180, 44%, 17%, 1);
+    background: radial-gradient(circle, hsla(180, 44%, 17%, 1) 0%, hsla(201, 64%, 4%, 1) 100%);
+
+    &__header {
+        height: 10%;
+    }
+}
